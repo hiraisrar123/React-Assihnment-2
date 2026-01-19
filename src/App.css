@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  text-align: center;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.text {
+  max-width: 500px;
+  color: #777;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 30px;
+  border: 2px solid #f2b8a2;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
